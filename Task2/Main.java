@@ -15,8 +15,8 @@ public class Main {
         System.out.println(boxInt.Average());
         System.out.println(num2.CompareAverage(boxInt));
 
-        //BoxWithNumber<String> boxString = new BoxWithNumber<>("2","dsf","753");
-        //System.out.println(boxString.CompareAverage(boxInt));
+        BoxWithNumber<String> boxString = new BoxWithNumber<>("2","dsf","753");
+        System.out.println(boxString.CompareAverage(boxInt));
 
     }
 

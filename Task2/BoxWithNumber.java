@@ -1,7 +1,7 @@
 package Task2;
 
 
-public class BoxWithNumber <T extends Number> {
+public class BoxWithNumber <T> {
 
     private T[] array;
 
@@ -25,7 +25,7 @@ public class BoxWithNumber <T extends Number> {
         Double res = 0.0;
         
         for (int i = 0; i < array.length; i++) {
-            res += array[i].doubleValue();
+          //  res += array[i].doubleValue();
         }
         res = res/array.length;
         return res;

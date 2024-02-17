@@ -20,6 +20,10 @@ public class Main {
 
         int res1 = calculator.sum(list1);
         System.out.println(calculator.toBinary(res1));
+        
+        String res2 = "123";
+        Calculator<String> calculator2 = new Calculator<>();
+        System.out.println(calculator2.toBinary(Integer.parseInt(res2)));
 
     
     }

@@ -33,6 +33,8 @@ public class Calculator<T> {
         return res;
     }
     public String toBinary(int res){
+
+        
         return Integer.toBinaryString(res);
     }
 }
