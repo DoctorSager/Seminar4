@@ -18,8 +18,8 @@ public class Main {
         System.out.println(calculator.multyple(list1));
         System.out.println(calculator.division(list1));
 
-        double res1 = calculator.sum(list1);
-        System.out.println(Integer.toBinaryString((int)res1));
+        int res1 = calculator.sum(list1);
+        System.out.println(calculator.toBinary(res1));
 
     
     }

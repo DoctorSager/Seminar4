@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Calculator<T> {
 
-    public double sum(List<? extends Number> numbers){
+    public int sum(List<? extends Number> numbers){
 
-        double res = 0;
+        int res = 0;
 
         for (int i = 0; i < numbers.size(); i++) {
             res += numbers.get(i).doubleValue();
@@ -32,5 +32,7 @@ public class Calculator<T> {
         }
         return res;
     }
-
+    public String toBinary(int res){
+        return Integer.toBinaryString(res);
+    }
 }
